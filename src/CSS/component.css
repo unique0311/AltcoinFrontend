@@ -1,0 +1,2042 @@
+/* FeatureTile CSS START */
+
+.featureTile_container {
+  width: 305px;
+  height: 300px;
+  background: linear-gradient(155.14deg, rgba(255, 255, 255, 0) -2.13%, rgba(255, 255, 255, 0.15) 136.58%);
+  filter: drop-shadow(0px 4px 49px rgba(0, 7, 72, 0.12));
+  backdrop-filter: blur(12.5px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  padding-top: 40px;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.featureTile_container img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 40px;
+}
+
+.featureTile_container h5 {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.featureTile_container p {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #fff;
+  opacity: 0.8;
+}
+
+/* FeatureTile CSS END */
+
+/* ContactUs CSS START */
+
+.contactus_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 80px;
+  padding-top: 80px;
+  background: #140236;
+  padding-bottom: 400px;
+}
+
+.contactus_title {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  text-transform: capitalize;
+  background: linear-gradient(118.42deg, #D9D9D9 -1.57%, #8379F3 -1.56%, #F987E7 98.75%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 20px;
+}
+
+.contactus_main {
+  background: #1D004C;
+  box-shadow: 0px 0px 60px 30px rgba(0, 0, 0, 0.03);
+  border-radius: 10px;
+  width: 1750px;
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+}
+
+.contact_info {
+  width: 40%;
+  height: calc(100% - 20px);
+  background: linear-gradient(98.07deg, #4D31BB 1.87%, rgba(203, 45, 242, 0.93) 95.69%);
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 80px;
+  font-family: 'Poppins';
+  position: relative;
+  overflow: hidden;
+}
+
+.contact_info h4 {
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 42px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.contact_info h5 {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #c9c9c9;
+  margin-bottom: 80px;
+}
+
+.contact_info_detail {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  /* justify-content: center; */
+}
+
+.contact_info_detail img {
+  width: 30px;
+  height: 30px;
+  margin-right: 45px;
+}
+
+.contact_info_detail p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  width: 400px;
+  color: #fff;
+}
+
+.contact_info_link {
+  display: flex;
+  flex-direction: row;
+  margin-top: 120px;
+}
+
+.contact_info_link img {
+  width: 40px;
+  height: 40px;
+  margin-right: 40px;
+  /* margin-left: 20px; */
+}
+
+.contactInfo_styleOne {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  background: rgba(217, 217, 217, 0.5);
+  border-radius: 9999px;
+  right: 70px;
+  bottom: 70px;
+  z-index: 10;
+}
+
+.contactInfo_styleTwo {
+  width: 320px;
+  height: 320px;
+  position: absolute;
+  background: linear-gradient(98.07deg, #4D31BB 1.87%, rgba(203, 45, 242, 0.93) 95.69%);
+  border-radius: 999px;
+  bottom: -110px;
+  right: -60px;
+}
+
+.contact_input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: #fff;
+  font-family: 'Poppins';
+  width: calc(60% - 150px);
+  margin-left: 90px;
+  margin-right: 60px;
+  margin-top: 90px;
+}
+
+.contactInput_name {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contactInput_select {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 80px;
+}
+
+.contactInput_select p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.contactInput_select input {
+  width: 400px;
+  font-size: 18px;
+  background: none;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+.contactInput_select input:focus {
+  outline: none;
+}
+
+.contactInput_subject {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.selectSubject_contact {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.subjectSelect {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.subjctSelect_radio {
+  display: flex;
+  flex-direction: row;
+  margin-right: 30px;
+}
+
+.subjctSelect_radio p {
+  margin-left: 10px;
+}
+
+.contactInput_message {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.mobile_hidden_text {
+  display: none;
+}
+
+.contactInput_message p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.contactInput_message input {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  background: none;
+  width: 100%;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+}
+
+.contactInput_message input:focus {
+  outline: none;
+}
+
+.sendMessage_button {
+  font-weight: 500;
+  font-size: 22px;
+  /* width: 350px; */
+  line-height: 24px;
+  background: linear-gradient(118.42deg, #D9D9D9 -1.57%, #8379F3 -1.56%, #F987E7 98.75%);
+  box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  padding: 15px 45px;
+}
+
+/* ContactUs CSS END */
+
+/* Profile CSS START */
+
+.profile_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: #140236;
+  font-family: 'Poppins';
+  padding: 40px 250px;
+  padding-bottom: 500px;
+}
+
+.profile_back {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.profile_back p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: white;
+  margin-left: 15px;
+}
+
+.profile_infomation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.profileInfo_left {
+  display: flex;
+  flex-direction: column;
+}
+
+.profileInfo_left h5 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  text-transform: capitalize;
+  background: linear-gradient(118.42deg, #D9D9D9 -1.57%, #8379F3 -1.56%, #F987E7 98.75%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.profileInfo_right {
+  display: flex;
+  flex-direction: column;
+}
+
+.profileInfo_right h5 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  text-transform: capitalize;
+  background: linear-gradient(118.42deg, #D9D9D9 -1.57%, #8379F3 -1.56%, #F987E7 98.75%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.profileInfo_detail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.profileInfo_detail p {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 78px;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.profileInfo_detail img {
+  width: 25px;
+  height: 25px;
+  margin-right: 25px;
+}
+
+.paymentHistory_detail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 600px;
+  justify-content: space-between;
+}
+
+.paymentHistory_detail p {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 78px;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+/* Profile CSS END */
+
+/* SignUp CSS START */
+
+.modal_background {
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  z-index: 60;
+  position: fixed;
+  backdrop-filter: blur(5px);
+  background: rgba(0, 0, 0, 0.12);
+}
+
+.signUp_container {
+  display: flex;
+  padding: 25px 25px;
+  width: 650px;
+  height: 640px;
+  background: #190041;
+  box-shadow: 0px 4px 49px rgba(0, 7, 72, 0.12);
+  backdrop-filter: blur(12.5px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  position: absolute;
+  top: 180%;
+  z-index: 70;
+}
+
+.signUpContainer_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.signUpContainer_main img {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+}
+
+.signUp_main {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  align-items: center;
+  justify-content: center;
+}
+
+.signUp_main h4 {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.signUp_main h5 {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 35px;
+  width: 400px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #e0e0e0;
+}
+
+.loginWallet_button {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 36px;
+  color: #fff;
+  background: none;
+  border: 2px solid white;
+  width: 100%;
+  height: 60px;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+.orLogin_via {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.orLogin_via div {
+  height: 1px;
+  width: 150px;
+  background: #fff;
+}
+
+.orLogin_via p {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.loginBlank_button {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 36px;
+  color: #fff;
+  background: #fff;
+  border: 2px solid white;
+  width: 100%;
+  height: 60px;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.loginEmail_button {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 36px;
+  color: #fff;
+  background: linear-gradient(118.42deg, #D9D9D9 -1.57%, #8379F3 -1.56%, #F987E7 98.75%);
+  /* border: 2px solid white; */
+  width: 100%;
+  height: 60px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/* SignUp CSS END */
+
+/* TokenExplorer CSS START */
+
+.tokenExplorer_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  background: #140236;
+}
+
+.tokenExplorer_container h4 {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 54px;
+  text-transform: capitalize;
+  background: linear-gradient(118.42deg, #D9D9D9 -1.57%, #8379F3 -1.56%, #F987E7 98.75%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 0px 80px;
+}
+
+.tokenExplorer_main {
+  width: calc(100% - 160px);
+  margin-left: 80px;
+  height: 1000px;
+  background: #1D004C;
+  border-radius: 17px;
+  padding: 40px 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tokenExplorer_subMain {
+  width: 100%;
+  display: flex;
+  flex-direction: column;;
+}
+
+.tokenMain_valuation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tokenValuation_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #4D31BB;
+  border-radius: 3px;
+  padding: 11px 33px;
+}
+
+.tokenValuation_container input {
+  margin-left: 10px;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #bfbfbf;
+  background: none;
+}
+
+.tokenValuation_container input:focus {
+  outline: none;
+}
+
+.tokenValuation_container p {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #D1BDFF;
+  margin-right: 10px;
+}
+
+.tokenQuery_button {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.tokenQuery_button button {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.token_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #f3f5f7;
+}
+
+.token_container p {
+  width: 100px;
+}
+
+.token_container img {
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+  margin-right: 15px;
+}
+
+.liquidity_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.liquidity_container img {
+  margin-right: 10px;
+}
+
+.liquidity_container p {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #25FF01;
+}
+
+.launchpad_setting {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.launchpad_setting img {
+  margin-right: 10px;
+}
+
+.launchpad_setting p {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+}
+
+th {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  background: linear-gradient(118.42deg, #D9D9D9 -1.57%, #8379F3 -1.56%, #F987E7 98.75%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+td {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.token_detail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.tokenTitle_container {
+  height: 50px;
+}
+
+.tokenBody_container:hover {
+  background: linear-gradient(98.07deg, #4D31BB 1.87%, rgba(203, 45, 242, 0.93) 95.69%);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.tokenBody_container td{
+  padding: 10px;
+}
+
+table {
+  border-collapse:separate; 
+  border-spacing: 0 1em;
+}
+
+.pagination_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins';
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #fff;
+  margin-top: 70px;
+  margin-bottom: 500px;
+}
+
+.pagination_container p {
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.selected_pagenumber {
+  background: linear-gradient(98.07deg, #4D31BB 1.87%, rgba(203, 45, 242, 0.93) 95.69%);
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.presale_apply {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background: linear-gradient(118.42deg, #D9D9D9 -1.57%, #8379F3 -1.56%, #F987E7 98.75%);
+}
+/* TokenExplorer CSS END */
+
+/* TokenDetail CSS START */
+
+.tokenDetail_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: #140236;
+  font-family: 'Poppins';
+  padding-left: 80px;
+  padding-top: 80px;
+}
+
+.tokenDetail_container h4 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  text-transform: capitalize;
+  background: linear-gradient(118.42deg, #D9D9D9 -1.57%, #8379F3 -1.56%, #F987E7 98.75%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.tokenDetail_first {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 350px;
+  margin-top: 40px;
+}
+
+.tokenDetail_mainTitle {
+  width: 55%;
+  height: 100%;
+  background: #1D004C;
+  border-radius: 10px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tokenMainTitle_up {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.tokenMainTitle_subject {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.tokenMainTitle_subject img {
+  width: 80px;
+  height: 80px;
+  margin-right: 30px;
+}
+
+.tokenSubject_detail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.tokenSubject_detail h5 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 20px;
+  color: #f3f5f7;
+  margin-bottom: 12px;
+}
+
+.tokenSubject_detail p {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  background: linear-gradient(118.42deg, #D9D9D9 -1.57%, #8379F3 -1.56%, #F987E7 98.75%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-top: 12px;
+}
+
+.tokenMainTitle_other {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.tokenMainTitle_other h6 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 20px;
+  background: linear-gradient(118.42deg, #D9D9D9 -1.57%, #8379F3 -1.56%, #F987E7 98.75%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 15px;
+}
+
+.tokenMainTitle_other h5 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.financeMarket_table {
+  width: 100%;
+}
+
+.tokenTitle_button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 6px 10px;
+  background: linear-gradient(118.42deg, #D9D9D9 -1.57%, #8379F3 -1.56%, #F987E7 98.75%);
+  border-radius: 10px;
+}
+
+.tokenTitle_button img {
+  width: 17px;
+  height: 17px;
+  margin-right: 5px;
+}
+
+.tokenTitle_button p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+}
+
+.tokenMainTitle_down {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.tokenTitle_tags {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.tokenTitle_tags h5 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.tokenTitle_tagContainer {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.tokenTitle_tagContainer p {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  text-align: center;
+  color: #fff;
+  padding: 5px 10px;
+  gap: 10px;
+  background: #002A7B;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+.tokenTitle_price {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.tokenTitle_lowHigh {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  color: #fff;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.tokenTitle_lowHigh p {
+  margin-bottom: 10px;
+  /* margin-top: 5px; */
+}
+
+.tokenTitle_graph {
+  width: 150px;
+  height: 2px;  
+  display: flex;
+  align-items: center;
+  margin-top: 7px;
+  background: linear-gradient(118.42deg, #D9D9D9 -1.57%, #8379F3 -1.56%, #F987E7 98.75%);
+}
+
+.tokenTitle_price h5 {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  background: linear-gradient(118.42deg, #D9D9D9 -1.57%, #8379F3 -1.56%, #F987E7 98.75%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.tokenDetail_about {
+  width: calc(45% - 120px);
+  height: 100%;
+  background: #1D004C;
+  border-radius: 10px;
+  margin-left: 40px;
+  padding: 50px;
+}
+
+.tokenDetail_about h5 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 36px;
+  background: linear-gradient(118.42deg, #D9D9D9 -1.57%, #8379F3 -1.56%, #F987E7 98.75%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.tokenDetail_about p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.wallet_title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.tokenAbout_wallet button {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  background: linear-gradient(118.42deg, #D9D9D9 -1.57%, #8379F3 -1.56%, #F987E7 98.75%);
+  padding: 5px 10px;
+  margin-top: 0;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.tokenAbout_social {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.tokenAbout_socialImage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.tokenAbout_socialImage img {
+  margin-right: 10px;
+}
+
+.tokenDetail_second {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 850px;
+  margin-top: 40px;
+}
+
+.tokenDetail_tokenomics {
+  width: 65%;
+  height: 100%;
+  background: #1D004C;
+  border-radius: 10px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.tokenDetail_tokenomics p {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  background: linear-gradient(118.42deg, #D9D9D9 -1.57%, #8379F3 -1.56%, #F987E7 98.75%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 40px;
+}
+
+.tokenomics_detail {
+  width: 100%;
+  height: 670px;
+  background: #140236;
+}
+
+.tokenDetail_right {
+  width: calc(35% - 120px);
+  height: 100%;
+  margin-left: 40px;
+}
+
+.tokenDetail_statistics {
+  width: 100%;
+  height: 45%;
+  background: #1D004C;
+  border-radius: 10px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tokenDetail_statistics h5 {
+  background: linear-gradient(118.42deg, #D9D9D9 -1.57%, #8379F3 -1.56%, #F987E7 98.75%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.statistics_image {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.statistics_image img {
+  width: 190px;
+  height: 190px;
+  margin-top: 20px;
+}
+
+.statistic_cap {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.marketCap_statistics {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.walletAndSocial {
+  display: flex;
+  flex-direction: column;
+}
+
+.marketCap_statistics div {
+  background: linear-gradient(118.42deg, #D9D9D9 -1.57%, #8379F3 -1.56%, #F987E7 98.75%);
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.marketCap_statistics p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #68676E;
+}
+
+.ATHMarketCap_statistics {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.ATHMarketCap_statistics div {
+  background: #1D1932;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.ATHMarketCap_statistics p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #68676E;
+}
+
+.financeMarket_title_mobile {
+  display: none;
+}
+
+.tokenDetail_tradeVolume {
+  width: 100%;
+  height: calc(55% - 40px);
+  background: #1D004C;
+  margin-top: 40px;
+  border-radius: 10px;
+  padding: 60px;
+}
+
+.tradeVolume_container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.tradeVolume_container h5 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #fff;
+}
+
+.tradeVolume_price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.tradeVolume_price p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #fff;
+}
+
+.tradeVolume_price h6 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #bebebe;
+}
+
+.tokenDetail_third {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 80px);
+  height: 400px;
+  background: #1D004C;
+  margin-top: 40px;
+  border-radius: 10px;
+  padding: 40px;
+  margin-bottom: 500px;
+}
+
+.financeMarket_title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.financeMarket_title p {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  background: linear-gradient(118.42deg, #D9D9D9 -1.57%, #8379F3 -1.56%, #F987E7 98.75%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-right: 100px;
+}
+
+.financeTitle_button {
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  background: #140236;
+  padding: 5px;
+}
+
+.button_spot {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #fff;
+  padding: 2px 10px;
+  background: linear-gradient(118.42deg, #D9D9D9 -1.57%, #8379F3 -1.56%, #F987E7 98.75%);
+  border-radius: 5px;
+}
+
+.button_futures {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #fff;
+  padding: 2px 10px;
+  background: #140236;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.token_containers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #f3f5f7;
+}
+
+.token_containers p {
+  width: 100px;
+}
+
+.token_containers img {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+}
+
+/* TokenDetail CSS END */
+
+@media (max-width: 1440px) {
+  .featureTile_container {
+    width: 300px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .profile_container {
+    padding: 40px 50px;
+    padding-bottom: 500px;
+  }
+
+  .contactus_container {
+    padding-left: 40px;
+  }
+
+  .contactus_title {
+    font-size: 32px;
+  }
+
+  .contactus_main {
+    width: 1170px;
+  }
+
+  .contact_info {
+    padding: 30px;
+  }
+
+  .contact_info h4 {
+    font-size: 30px;
+  }
+
+  .contact_info h5 {
+    font-size: 19px;
+  }
+
+  .contact_info_detail p {
+    font-size: 16px;
+  }
+
+  .contact_info_link img {
+    margin-right: 30px;
+  }
+
+  .contactInfo_styleOne {
+    width: 140px;
+    height: 140px;
+  }
+
+  .contactInfo_styleTwo {
+    width: 290px;
+    height: 290px;
+  }
+
+  .contact_input {
+    width: calc(60% - 80px);
+    margin-left: 30px;
+    margin-right: 40px;
+  }
+
+  .contactInput_select p {
+    font-size: 14px;
+  }
+
+  .contactInput_select input {
+    width: 290px;
+    font-size: 13px;
+  }
+
+  .selectSubject_contact {
+    font-size: 16px;
+  }
+
+  .subjectSelect {
+    font-size: 12px;
+  }
+
+  .subjctSelect_radio {
+    margin-right: 15px;
+  }
+
+  .contactInput_message {
+    font-size: 16px;
+  }
+
+  .contactInput_message input {
+    font-size: 18px;
+  }
+
+  .tokenExplorer_container h4 {
+    font-size: 36px;
+    padding: 0px 50px;
+  }
+
+  .tokenExplorer_main {
+    width: calc(100% - 80px);
+    margin-left: 40px;
+    padding: 40px 30px;
+  }
+
+  .tokenValuation_container {
+    padding-inline-start: 10px 15px;
+  }
+
+  .tokenValuation_container p {
+    font-size: 16px;
+  }
+
+  th {
+    font-size: 14px;
+  }
+
+  .token_container {
+    font-size: 14px;
+  }
+
+  .token_container img {
+    width: 35px;
+    height: 35px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .token_detail {
+    font-size: 14px;
+  }
+
+  .liquidity_container img {
+    margin-right: 5px;
+  }
+
+  .liquidity_container p {
+    font-size: 14px;
+  }
+
+
+}
+
+@media (max-width: 500px) {
+  .featureTile_container {
+    width: 166px;
+    height: 161px;
+    padding-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 15px;
+    margin-bottom: 0;
+  }
+
+  .featureTile_container img {
+    width: 31px;
+    height: 31px;
+    margin-bottom: 15px;
+  }
+
+  .featureTile_container h5 {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 10px;
+  }
+
+  .featureTile_container p {
+    font-size: 9px;
+    line-height: 13px;
+  }
+
+  .profile_back {
+    display: none;
+  }
+
+  .profile_container {
+    padding: 40px 20px;
+    background: #161742;
+  }
+
+  .profile_infomation {
+    flex-direction: column;
+  }
+
+  .profileInfo_left h5 {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .profileInfo_detail img {
+    width: 14px;
+    height: 14px;
+  }
+
+  .profileInfo_detail p {
+    font-size: 10px;
+    line-height: 35px;
+  }
+
+  .paymentHistory_detail p {
+    font-size: 10px;
+    line-height: 35px;
+  }
+  
+  .paymentHistory_detail {
+    width: 340px;
+  }
+
+  .profileInfo_right h5 {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .signUp_container {
+    width: 100%;
+    border-radius: 0;
+    padding: 15px 15px;
+  }
+
+  .signUp_main {
+    width: calc(100% - 30px);
+  }
+
+  .signUp_main h4 {
+    font-size: 30px;
+  }
+
+  .signUp_main h5 {
+    font-size: 22px;
+    width: 350px;
+  }
+
+  .loginWallet_button {
+    height: 50px;
+    font-size: 24px;
+  }
+
+  .orLogin_via div {
+    width: 85px;
+  }
+
+  .orLogin_via p {
+    font-size: 14px;
+  }
+
+  .loginBlank_button {
+    height: 50px;
+    font-size: 24px;
+  }
+
+  .loginEmail_button {
+    height: 50px;
+    font-size: 24px;
+  }
+
+  .contactInfo_styleTwo {
+    width: 200px;
+    height: 200px;
+    bottom: -70px;
+    right: -110px;
+  }
+
+  .contactInfo_styleOne {
+    width: 80px;
+    height: 80px;
+    right: 30px;
+    bottom: 55px;
+  }
+
+  .contact_info_link img {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .contact_info_link {
+    margin-top: 60px;
+  }
+
+  .contact_info_detail p {
+    font-size: 12px;
+    line-height: 20px;
+    width: 260px;
+    text-align: center;
+  }
+
+  .contact_info_detail img {
+    width: 20px;
+    height: 20px;
+    margin-right: 0;
+  }
+
+  .contact_info_detail {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+
+  .contact_info h5 {
+    font-size: 10px;
+    line-height: 27px;
+    margin-bottom: 0px;
+  }
+  
+  .contact_info h4 {
+    font-size: 20px;
+    line-height: 15px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+
+  .contact_info {
+    width: 100%;
+    height: 400px;
+    margin: 0px;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+  }
+
+  .contactus_main {
+    border-radius: 10px;
+    width: 340px;
+    flex-direction: column;
+    align-items: center;
+    height: 1200px;
+  }
+
+  .contactus_container {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding-left: 0px;
+    padding-top: 80px;
+    background: #161742;
+  }
+
+  .contact_input {
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    align-items: center;
+    font-size: 12px;
+  }
+
+  .contactInput_name {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .contactInput_select {
+    margin-bottom: 35px;
+    font-size: 12px;
+  }
+
+  .contactInput_select p {
+    font-size: 12px;
+  }
+
+  .contactInput_select input {
+    width: 310px;
+    font-size: 12px;
+  }
+
+  .contactInput_subject {
+    width: 95%;
+  }
+
+  .selectSubject_contact {
+    font-size: 12px;
+  }
+
+  .subjctSelect_radio {
+    margin-right: 10px;
+  }
+
+  .contactInput_message {
+    width: 95%;
+  }
+
+  .contactInput_message p {
+    font-size: 12px;
+  }
+
+  .contactInput_message input {
+    font-size: 12px;
+  }
+
+  .sendMessage_button {
+    font-size: 12px;
+    width: 100%;
+  }
+
+
+  .tokenExplorer_container h4 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .tokenExplorer_main {
+    width: calc(100% - 10px);
+    margin-left: 10px;
+    padding: 40px 10px;
+    overflow: auto;
+    height: 1150px;
+  }
+
+  .tokenExplorer_subMain {
+    display: flex;
+    flex-direction: column;
+    width: 1800px;
+  }
+
+  .tokenMain_valuation {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+
+  .tokenValuation_container {
+    margin-bottom: 10px;
+  }
+
+  .tokenQuery_button {
+    justify-content: flex-start;
+  }
+
+  .tokenQuery_button button {
+    font-size: 12px;
+    padding: 5px 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .tokenExplorer_main::-webkit-scrollbar-track
+  {
+    background-color: #0a0002;
+    height: 98%;
+  }
+
+  .tokenExplorer_main::-webkit-scrollbar
+  {
+    width: 2px;
+    height: 8px;
+    background-color: #0a0002;
+  }
+
+  .tokenExplorer_main::-webkit-scrollbar-thumb
+  {
+    background: #140236;
+    border-radius: 10px;
+    height: 98%;
+  }
+
+  .pagination_container {
+    font-size: 18px;
+  }
+
+  .pagination_container p {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .tokenValuation_container input {
+    font-size: 18px;
+    width: 230px;
+  }
+
+  .presale_apply {
+    font-size: 14px;
+    line-height: 14px;
+    margin-left: 240px;
+  }
+
+  .tokenDetail_container {
+    align-items: flex-start;
+    padding-left: 0;
+  }
+
+  .tokenDetail_container h4 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .tokenDetail_mainTitle {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .tokenMainTitle_subject img {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+  }
+
+  .tokenSubject_detail h5 {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+
+  .tokenSubject_detail p {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+
+  .tokenMainTitle_other h6 {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  .tokenMainTitle_other h5 {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+
+  .tokenTitle_button {
+    border-radius: 6px;
+  }
+
+  .tokenTitle_button img {
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+  }
+
+  .tokenTitle_button p {
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .tokenMainTitle_down {
+    flex-direction: column-reverse;
+  }
+
+  .tokenTitle_tags h5 {
+    font-size: 12px;
+  }
+
+  .tokenTitle_graph {
+    width: 170px;
+  }
+
+  .tokenDetail_first {
+    flex-direction: column;
+    height: 620px;
+    margin-top: 15px;
+  }
+
+  .tokenDetail_about {
+    width: 100%;
+    margin-left: 0;
+    padding: 15px;
+    margin-top: 10px;
+    height: 330px;
+  }
+
+  .mobile_hidden_text {
+    display: flex;
+    width: 100%;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: capitalize;
+    background: linear-gradient(118.42deg, #D9D9D9 -1.57%, #8379F3 -1.56%, #F987E7 98.75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 25px;
+  }
+
+  .tokenDetail_about h5 {
+    display: none;
+  }
+
+  .tokenDetail_about p {
+    font-size: 12px;
+    margin-top: 15px;
+  }
+
+  .walletAndSocial {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .wallet_title {
+    font-size: 16px;
+  }
+
+  .tokenAbout_wallet button {
+    margin-bottom: 0;
+  }
+
+  .tokenAbout_social h6 {
+    margin-bottom: 5px;
+  }
+
+  .tokenDetail_second {
+    flex-direction: column-reverse;
+    margin-top: 15px;
+    height: auto;
+  }
+
+  .tokenDetail_tokenomics {
+    width: 100%;
+    margin-top: 15px;
+    padding: 20px;
+  }
+
+  .tokenDetail_tokenomics p {
+    display: none;
+  }
+
+  .tokenomics_detail {
+    height: 400px;
+  }
+
+  .tokenDetail_right {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .tokenDetail_statistics {
+    padding: 15px;
+  }
+
+  .tokenDetail_statistics h5 {
+    display: none;
+  }
+
+  .statistics_image img {
+    margin-bottom: 50px;
+  }
+
+  .tokenDetail_tradeVolume {
+    padding: 30px;
+  }
+
+  .financeMarket_title {
+    display: none;
+  }
+
+  .financeMarket_title_mobile {
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .financeMarket_title_mobile p {
+    font-size: 14px;
+    margin-right: 0;
+    font-weight: 600;
+    line-height: 36px;
+    background: linear-gradient(118.42deg, #D9D9D9 -1.57%, #8379F3 -1.56%, #F987E7 98.75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .button_spot {
+    font-size: 10px;
+    padding: 0px 10px;
+  }
+
+  .button_futures {
+    font-size: 10px;
+    padding: 0px 10px;
+  }
+
+  .tokenDetail_third {
+    width: 100%;
+    padding: 20px;
+    margin-top: 15px;
+    overflow: auto;
+  }
+
+  .tokenDetail_third::-webkit-scrollbar-track
+  {
+    background-color: #0a0002;
+    height: 98%;
+  }
+
+  .tokenDetail_third::-webkit-scrollbar
+  {
+    width: 2px;
+    height: 8px;
+    background-color: #0a0002;
+  }
+
+  .tokenDetail_third::-webkit-scrollbar-thumb
+  {
+    background: #140236;
+    border-radius: 10px;
+    height: 98%;
+  }
+
+  .financeMarket_table {
+    width: 880px;
+  }
+}
